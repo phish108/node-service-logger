@@ -1,0 +1,19 @@
+{
+    "name": "service-logger",
+    "description": "a helper to instantiate winston loggers for my javascript web-services",
+    "version": "0.0.0",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/phish108/node-service-logger.git"
+    },  
+    "bugs": {
+        "url": "https://github.com/phish108/node-service-logger/issues"
+    },
+    "scripts": {
+        "main": "node index.mjs"
+    },
+    "dependencies": {
+        "winston": "3.8.2"
+    }
+}
