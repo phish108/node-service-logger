@@ -103,7 +103,6 @@ dist
 # TernJS port file
 .tern-port
 
-site/assets
 **/.DS_Store
 
 # local environment variables

@@ -1,15 +1,16 @@
 import * as winston from "winston";
 
 const levels = {
-    emerg: 0, 
-    alert: 1,
-    crit: 2,
-    error: 3,
-    warning: 4,
-    notice: 5,
-    info: 6,
-    debug: 7, 
-    silly: 8
+    performance: 0,
+    emergency: 1,
+    alert: 2,
+    critical: 3,
+    error: 4,
+    warning: 5,
+    notice: 6,
+    info: 7,
+    debug: 8, 
+    data: 9
 }
 
 const baseLogger = winston.createLogger({
@@ -24,10 +25,14 @@ const baseLogger = winston.createLogger({
     levels
 });
 
-export function init(level) {
+export function initLogger({level}) {
     baseLogger.level = level
 }
 
-export function get(mod) {
+export function getLogger(mod) {
+    if (!mod) {
+        return baseLogger;
+    }
+    
     return baseLogger.child({mod})
 }
