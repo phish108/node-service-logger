@@ -1,7 +1,7 @@
 {
     "name": "service-logger",
     "description": "a helper to instantiate winston loggers for my javascript web-services",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -15,5 +15,6 @@
     },
     "dependencies": {
         "winston": "3.8.2"
-    }
+    },
+    "main": "index.mjs"
 }
