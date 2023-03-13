@@ -16,6 +16,5 @@
     },
     "dependencies": {
         "winston": "3.8.2"
-    },
-    "main": "index.mjs"
+    }
 }
