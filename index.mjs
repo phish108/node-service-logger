@@ -25,7 +25,7 @@ const baseLogger = winston.createLogger({
     levels
 });
 
-export function initLogger({level}) {
+export function initLogger({level} = {}) {
     baseLogger.level = level
 }
 
