@@ -1,5 +1,5 @@
 {
-    "name": "service-logger",
+    "name": "service_logger",
     "description": "a helper to instantiate winston loggers for my javascript web-services",
     "version": "1.0.0",
     "license": "MIT",
