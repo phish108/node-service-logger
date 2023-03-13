@@ -3,6 +3,7 @@
     "description": "a helper to instantiate winston loggers for my javascript web-services",
     "version": "1.0.0",
     "license": "MIT",
+    "main": "index.mjs",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/phish108/node-service-logger.git"
