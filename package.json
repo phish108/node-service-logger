@@ -11,9 +11,6 @@
     "bugs": {
         "url": "https://github.com/phish108/node-service-logger/issues"
     },
-    "scripts": {
-        "main": "node index.mjs"
-    },
     "dependencies": {
         "winston": "3.8.2"
     }
