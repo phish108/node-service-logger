@@ -12,6 +12,6 @@
         "url": "https://github.com/phish108/node-service-logger/issues"
     },
     "dependencies": {
-        "winston": "3.15.0"
+        "winston": "3.16.0"
     }
 }
